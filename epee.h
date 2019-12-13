@@ -1,7 +1,7 @@
 //
 // Created by TheLaskY on 12/13/2019.
 //
-#pragma once
+
 #ifndef JEUDEROLE_EPEE_H
 #define JEUDEROLE_EPEE_H
 

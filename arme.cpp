@@ -3,6 +3,7 @@
 //
 
 #include "arme.h"
+#include "EtreVivant.h"
 
 Arme::Arme() {
 

@@ -172,6 +172,25 @@ CMakeFiles\JeuDeRole.dir\Monstre.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\JeuDeRole.dir\Monstre.cpp.s /c D:\CoursEpsi1920\JeuDeRole\Monstre.cpp
 <<
 
+CMakeFiles\JeuDeRole.dir\heros.cpp.obj: CMakeFiles\JeuDeRole.dir\flags.make
+CMakeFiles\JeuDeRole.dir\heros.cpp.obj: ..\heros.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CoursEpsi1920\JeuDeRole\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/JeuDeRole.dir/heros.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\JeuDeRole.dir\heros.cpp.obj /FdCMakeFiles\JeuDeRole.dir\ /FS -c D:\CoursEpsi1920\JeuDeRole\heros.cpp
+<<
+
+CMakeFiles\JeuDeRole.dir\heros.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JeuDeRole.dir/heros.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\JeuDeRole.dir\heros.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CoursEpsi1920\JeuDeRole\heros.cpp
+<<
+
+CMakeFiles\JeuDeRole.dir\heros.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JeuDeRole.dir/heros.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\JeuDeRole.dir\heros.cpp.s /c D:\CoursEpsi1920\JeuDeRole\heros.cpp
+<<
+
 # Object files for target JeuDeRole
 JeuDeRole_OBJECTS = \
 "CMakeFiles\JeuDeRole.dir\main.cpp.obj" \
@@ -179,7 +198,8 @@ JeuDeRole_OBJECTS = \
 "CMakeFiles\JeuDeRole.dir\EtreVivant.cpp.obj" \
 "CMakeFiles\JeuDeRole.dir\epee.cpp.obj" \
 "CMakeFiles\JeuDeRole.dir\gourdin.cpp.obj" \
-"CMakeFiles\JeuDeRole.dir\Monstre.cpp.obj"
+"CMakeFiles\JeuDeRole.dir\Monstre.cpp.obj" \
+"CMakeFiles\JeuDeRole.dir\heros.cpp.obj"
 
 # External object files for target JeuDeRole
 JeuDeRole_EXTERNAL_OBJECTS =
@@ -190,9 +210,10 @@ JeuDeRole.exe: CMakeFiles\JeuDeRole.dir\EtreVivant.cpp.obj
 JeuDeRole.exe: CMakeFiles\JeuDeRole.dir\epee.cpp.obj
 JeuDeRole.exe: CMakeFiles\JeuDeRole.dir\gourdin.cpp.obj
 JeuDeRole.exe: CMakeFiles\JeuDeRole.dir\Monstre.cpp.obj
+JeuDeRole.exe: CMakeFiles\JeuDeRole.dir\heros.cpp.obj
 JeuDeRole.exe: CMakeFiles\JeuDeRole.dir\build.make
 JeuDeRole.exe: CMakeFiles\JeuDeRole.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CoursEpsi1920\JeuDeRole\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable JeuDeRole.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CoursEpsi1920\JeuDeRole\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable JeuDeRole.exe"
 	"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\JeuDeRole.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\JeuDeRole.dir\objects1.rsp @<<
  /out:JeuDeRole.exe /implib:JeuDeRole.lib /pdb:D:\CoursEpsi1920\JeuDeRole\cmake-build-debug\JeuDeRole.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

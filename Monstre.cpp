@@ -8,7 +8,7 @@ Monstre::Monstre() {
 
 }
 
-Monstre::Monstre(string nom, int pv, Arme MonArme): EtreVivant(_PositionX, _PositionY, nom, pv), _MonArme(MonArme) {
+Monstre::Monstre(string nom, int pv, Arme MonArme, int PositionX, int PositionY): EtreVivant(PositionX, PositionY, nom, pv), _MonArme(MonArme) {
 
 }
 

@@ -4,7 +4,6 @@
 
 #ifndef JEUDEROLE_ETREVIVANT_H
 #define JEUDEROLE_ETREVIVANT_H
-#pragma once
 #include <xstring>
 
 using namespace std;

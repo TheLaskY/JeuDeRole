@@ -1,7 +1,6 @@
 //
 // Created by TheLaskY on 12/13/2019.
 //
-#pragma once
 #ifndef JEUDEROLE_MONSTRE_H
 #define JEUDEROLE_MONSTRE_H
 
@@ -15,7 +14,7 @@ protected:
 
 public:
     Monstre();
-    Monstre(string nom, int pv, Arme MonArme);
+    Monstre(string nom, int pv, Arme MonArme,int PositionX, int PositionY);
     void Afficher();
 };
 

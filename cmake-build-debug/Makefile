@@ -259,6 +259,33 @@ gourdin.cpp.s:
 	$(MAKE) -f CMakeFiles\JeuDeRole.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\JeuDeRole.dir\gourdin.cpp.s
 .PHONY : gourdin.cpp.s
 
+heros.obj: heros.cpp.obj
+
+.PHONY : heros.obj
+
+# target to build an object file
+heros.cpp.obj:
+	$(MAKE) -f CMakeFiles\JeuDeRole.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\JeuDeRole.dir\heros.cpp.obj
+.PHONY : heros.cpp.obj
+
+heros.i: heros.cpp.i
+
+.PHONY : heros.i
+
+# target to preprocess a source file
+heros.cpp.i:
+	$(MAKE) -f CMakeFiles\JeuDeRole.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\JeuDeRole.dir\heros.cpp.i
+.PHONY : heros.cpp.i
+
+heros.s: heros.cpp.s
+
+.PHONY : heros.s
+
+# target to generate assembly for a file
+heros.cpp.s:
+	$(MAKE) -f CMakeFiles\JeuDeRole.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\JeuDeRole.dir\heros.cpp.s
+.PHONY : heros.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -310,6 +337,9 @@ help:
 	@echo ... gourdin.obj
 	@echo ... gourdin.i
 	@echo ... gourdin.s
+	@echo ... heros.obj
+	@echo ... heros.i
+	@echo ... heros.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

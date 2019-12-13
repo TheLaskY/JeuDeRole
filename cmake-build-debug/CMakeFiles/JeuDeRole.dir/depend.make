@@ -11,6 +11,7 @@ CMakeFiles\JeuDeRole.dir\Monstre.cpp.obj: ..\Monstre.h
 CMakeFiles\JeuDeRole.dir\Monstre.cpp.obj: ..\arme.h
 CMakeFiles\JeuDeRole.dir\Monstre.cpp.obj: ..\gourdin.h
 
+CMakeFiles\JeuDeRole.dir\arme.cpp.obj: ..\EtreVivant.h
 CMakeFiles\JeuDeRole.dir\arme.cpp.obj: ..\arme.cpp
 CMakeFiles\JeuDeRole.dir\arme.cpp.obj: ..\arme.h
 
@@ -22,10 +23,16 @@ CMakeFiles\JeuDeRole.dir\gourdin.cpp.obj: ..\arme.h
 CMakeFiles\JeuDeRole.dir\gourdin.cpp.obj: ..\gourdin.cpp
 CMakeFiles\JeuDeRole.dir\gourdin.cpp.obj: ..\gourdin.h
 
+CMakeFiles\JeuDeRole.dir\heros.cpp.obj: ..\EtreVivant.h
+CMakeFiles\JeuDeRole.dir\heros.cpp.obj: ..\arme.h
+CMakeFiles\JeuDeRole.dir\heros.cpp.obj: ..\heros.cpp
+CMakeFiles\JeuDeRole.dir\heros.cpp.obj: ..\heros.h
+
 CMakeFiles\JeuDeRole.dir\main.cpp.obj: ..\EtreVivant.h
 CMakeFiles\JeuDeRole.dir\main.cpp.obj: ..\Monstre.h
 CMakeFiles\JeuDeRole.dir\main.cpp.obj: ..\arme.h
 CMakeFiles\JeuDeRole.dir\main.cpp.obj: ..\epee.h
 CMakeFiles\JeuDeRole.dir\main.cpp.obj: ..\gourdin.h
+CMakeFiles\JeuDeRole.dir\main.cpp.obj: ..\heros.h
 CMakeFiles\JeuDeRole.dir\main.cpp.obj: ..\main.cpp
 

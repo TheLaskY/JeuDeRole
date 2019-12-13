@@ -4,7 +4,7 @@
 
 #ifndef JEUDEROLE_ARME_H
 #define JEUDEROLE_ARME_H
-#pragma once
+
 #include <iostream>
 using namespace std;
 class Arme{

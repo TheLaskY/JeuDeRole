@@ -4,6 +4,7 @@
 #include "gourdin.h"
 #include "epee.h"
 #include "Monstre.h"
+#include "heros.h"
 
 int main() {
     EtreVivant Paul(0,0,"Paul",100);
@@ -14,9 +15,13 @@ int main() {
     gourdin Gourdin1("MonGrosGourdin",50,120);
     Gourdin1.Afficher();
     EtreVivant Etre1 (0,0,"Goldorak",500);
-    Monstre Monstre1("Goldoraaak",500,Gourdin1);
-    Monstre1.SePositioner(0,0);
+    Monstre Monstre1("Goldoraaak",500,Gourdin1,0,0);
+    //Monstre1.SePositioner(0,0);
     Monstre1.Afficher();
+    epee Epee1("MaGroseEpee",150,1000);
+    heros Paul1("Paul",100,Epee1,0,0);
+    Paul1.Afficher();
+    Paul1.Attaquer(Etre1);
 
 
     /*Paul.Attaquer(Monstre2);

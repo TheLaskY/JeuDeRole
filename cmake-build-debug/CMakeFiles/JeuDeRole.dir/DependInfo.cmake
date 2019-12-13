@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/CoursEpsi1920/JeuDeRole/arme.cpp" "D:/CoursEpsi1920/JeuDeRole/cmake-build-debug/CMakeFiles/JeuDeRole.dir/arme.cpp.obj"
   "D:/CoursEpsi1920/JeuDeRole/epee.cpp" "D:/CoursEpsi1920/JeuDeRole/cmake-build-debug/CMakeFiles/JeuDeRole.dir/epee.cpp.obj"
   "D:/CoursEpsi1920/JeuDeRole/gourdin.cpp" "D:/CoursEpsi1920/JeuDeRole/cmake-build-debug/CMakeFiles/JeuDeRole.dir/gourdin.cpp.obj"
+  "D:/CoursEpsi1920/JeuDeRole/heros.cpp" "D:/CoursEpsi1920/JeuDeRole/cmake-build-debug/CMakeFiles/JeuDeRole.dir/heros.cpp.obj"
   "D:/CoursEpsi1920/JeuDeRole/main.cpp" "D:/CoursEpsi1920/JeuDeRole/cmake-build-debug/CMakeFiles/JeuDeRole.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/JeuDeRole.dir/arme.cpp.obj"
   "CMakeFiles/JeuDeRole.dir/epee.cpp.obj"
   "CMakeFiles/JeuDeRole.dir/gourdin.cpp.obj"
+  "CMakeFiles/JeuDeRole.dir/heros.cpp.obj"
   "CMakeFiles/JeuDeRole.dir/main.cpp.obj"
   "JeuDeRole.exe"
   "JeuDeRole.exe.manifest"

@@ -12,6 +12,7 @@ CMakeFiles/JeuDeRole.dir/Monstre.cpp.obj
  D:/CoursEpsi1920/JeuDeRole/arme.h
  D:/CoursEpsi1920/JeuDeRole/gourdin.h
 CMakeFiles/JeuDeRole.dir/arme.cpp.obj
+ D:/CoursEpsi1920/JeuDeRole/EtreVivant.h
  D:/CoursEpsi1920/JeuDeRole/arme.cpp
  D:/CoursEpsi1920/JeuDeRole/arme.h
 CMakeFiles/JeuDeRole.dir/epee.cpp.obj
@@ -22,10 +23,16 @@ CMakeFiles/JeuDeRole.dir/gourdin.cpp.obj
  D:/CoursEpsi1920/JeuDeRole/arme.h
  D:/CoursEpsi1920/JeuDeRole/gourdin.cpp
  D:/CoursEpsi1920/JeuDeRole/gourdin.h
+CMakeFiles/JeuDeRole.dir/heros.cpp.obj
+ D:/CoursEpsi1920/JeuDeRole/EtreVivant.h
+ D:/CoursEpsi1920/JeuDeRole/arme.h
+ D:/CoursEpsi1920/JeuDeRole/heros.cpp
+ D:/CoursEpsi1920/JeuDeRole/heros.h
 CMakeFiles/JeuDeRole.dir/main.cpp.obj
  D:/CoursEpsi1920/JeuDeRole/EtreVivant.h
  D:/CoursEpsi1920/JeuDeRole/Monstre.h
  D:/CoursEpsi1920/JeuDeRole/arme.h
  D:/CoursEpsi1920/JeuDeRole/epee.h
  D:/CoursEpsi1920/JeuDeRole/gourdin.h
+ D:/CoursEpsi1920/JeuDeRole/heros.h
  D:/CoursEpsi1920/JeuDeRole/main.cpp
