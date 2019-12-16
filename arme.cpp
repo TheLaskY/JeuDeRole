@@ -20,7 +20,8 @@ void Arme::Afficher() {
 }
 
 void Arme::Attaquer() {
-
+    cout<<"Nom de l'arme : "<<_nom<<endl;
+    cout<<"Degats de l'arme : "<<_degats<<endl;
 }
 
 int Arme::getDegats()

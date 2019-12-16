@@ -11,7 +11,7 @@ protected:
 public:
     gourdin();
     gourdin(string nom,int degats,double poids);
-    void Attaque(string nom);
+    void Attaquer();
     void Afficher();
 };
 #endif //JEUDEROLE_GOURDIN_H

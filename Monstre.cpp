@@ -8,12 +8,17 @@ Monstre::Monstre() {
 
 }
 
-Monstre::Monstre(string nom, int pv, Arme MonArme, int PositionX, int PositionY): EtreVivant(PositionX, PositionY, nom, pv), _MonArme(MonArme) {
+Monstre::Monstre(string nom, int pv, Arme &MonArme, int PositionX, int PositionY): EtreVivant(PositionX, PositionY, nom, pv), _MonArme(&MonArme) {
 
 }
 
 void Monstre::Afficher() {
     EtreVivant::Afficher();
     cout<<"J'ai l'arme suivante: ";
-    _MonArme.Afficher();
+    _MonArme->Afficher();
 }
+
+void Monstre::Attaquer(EtreVivant &cible) {
+    EtreVivant::Attaquer(cible);
+}
+

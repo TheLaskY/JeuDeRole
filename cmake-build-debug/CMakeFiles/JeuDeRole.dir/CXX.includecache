@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-D:/CoursEpsi1920/JeuDeRole/EtreVivant.cpp
-EtreVivant.h
-D:/CoursEpsi1920/JeuDeRole/EtreVivant.h
-arme.h
-D:/CoursEpsi1920/JeuDeRole/arme.h
-iostream
--
-
 D:/CoursEpsi1920/JeuDeRole/EtreVivant.h
 xstring
 -
@@ -30,27 +22,13 @@ D:/CoursEpsi1920/JeuDeRole/arme.h
 gourdin.h
 D:/CoursEpsi1920/JeuDeRole/gourdin.h
 
-D:/CoursEpsi1920/JeuDeRole/arme.cpp
-arme.h
-D:/CoursEpsi1920/JeuDeRole/arme.h
-EtreVivant.h
-D:/CoursEpsi1920/JeuDeRole/EtreVivant.h
-
 D:/CoursEpsi1920/JeuDeRole/arme.h
 iostream
 -
 
-D:/CoursEpsi1920/JeuDeRole/epee.cpp
-epee.h
-D:/CoursEpsi1920/JeuDeRole/epee.h
-
 D:/CoursEpsi1920/JeuDeRole/epee.h
 arme.h
 D:/CoursEpsi1920/JeuDeRole/arme.h
-
-D:/CoursEpsi1920/JeuDeRole/gourdin.cpp
-gourdin.h
-D:/CoursEpsi1920/JeuDeRole/gourdin.h
 
 D:/CoursEpsi1920/JeuDeRole/gourdin.h
 arme.h
@@ -59,12 +37,18 @@ D:/CoursEpsi1920/JeuDeRole/arme.h
 D:/CoursEpsi1920/JeuDeRole/heros.cpp
 heros.h
 D:/CoursEpsi1920/JeuDeRole/heros.h
+EtreVivant.h
+D:/CoursEpsi1920/JeuDeRole/EtreVivant.h
+Monstre.h
+D:/CoursEpsi1920/JeuDeRole/Monstre.h
 
 D:/CoursEpsi1920/JeuDeRole/heros.h
 EtreVivant.h
 D:/CoursEpsi1920/JeuDeRole/EtreVivant.h
 arme.h
 D:/CoursEpsi1920/JeuDeRole/arme.h
+Monstre.h
+D:/CoursEpsi1920/JeuDeRole/Monstre.h
 
 D:/CoursEpsi1920/JeuDeRole/main.cpp
 iostream

@@ -10,11 +10,12 @@
 
 class Monstre: public EtreVivant{
 protected:
-    Arme _MonArme;
+    Arme* _MonArme;
 
 public:
     Monstre();
-    Monstre(string nom, int pv, Arme MonArme,int PositionX, int PositionY);
+    Monstre(string nom, int pv, Arme &MonArme,int PositionX, int PositionY);
+    void Attaquer(EtreVivant &cible);
     void Afficher();
 };
 

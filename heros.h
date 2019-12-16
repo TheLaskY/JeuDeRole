@@ -7,13 +7,16 @@
 
 #include "EtreVivant.h"
 #include "arme.h"
+#include "Monstre.h"
 
 class heros : public EtreVivant{
 protected:
-    Arme _MonArme;
+    Arme* _MonArme;
 public:
     heros();
-    heros(string nom, int pv, Arme MonArme,int PositionX,int PositionY);
+    heros(string nom, int pv, Arme &MonArme,int PositionX,int PositionY);
     void Afficher();
+
+    void Attaquer(Monstre &cible);
 };
 #endif //JEUDEROLE_HEROS_H

@@ -17,3 +17,7 @@ void epee::Afficher() {
     cout<<"Longueur de lepee : "<<_longueur<<endl;
 }
 
+void epee::Attaquer() {
+    Arme::Attaquer();
+}
+

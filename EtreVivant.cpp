@@ -4,6 +4,7 @@
 
 #include "EtreVivant.h"
 #include "arme.h"
+#include "epee.h"
 #include <iostream>
 
 using namespace std;
@@ -37,14 +38,16 @@ void EtreVivant::SePositioner(int PositionX,int PositionY) {
 
 }
 
-void EtreVivant::Attaquer(EtreVivant &cible) {
+void EtreVivant::Attaquer(EtreVivant &cible, int nbDegats) {
     cout<<"--------------------------------------"<<endl;
-    cout<<"La cible attaquee est: "<<_nom<<endl;
+    cout<<"La cible attaquee est: "<<cible._nom<<endl;
+    RecevoirDegats(cible._nom,nbDegats);
 
 }
-void EtreVivant::RecevoirDegats(int nbDegats) {
-    _pv-= nbDegats;
+void EtreVivant::RecevoirDegats(string nom,int nbdegats) {
+    /*_pv-= nbDegats;
     if (_pv<0){
         _pv=0;
-    }
+    }*/
+    cout<<nom<<" recoi "<<nbdegats<<" degats! "<<endl;
 }

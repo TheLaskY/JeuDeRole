@@ -7,21 +7,30 @@
 #include "heros.h"
 
 int main() {
-    EtreVivant Paul(0,0,"Paul",100);
-    Paul.Afficher();
 
+    //Creation 1ier EtreVivant
+    EtreVivant Paul(0,0,"Paul",100);
+
+    //Creation 2ieme Etrevivant
     EtreVivant Monstre2(4,4,"Corobizar",50);
-    Monstre2.Afficher();
-    gourdin Gourdin1("MonGrosGourdin",50,120);
-    Gourdin1.Afficher();
+
+    //Creation 3ieme EtreVivant
     EtreVivant Etre1 (0,0,"Goldorak",500);
-    Monstre Monstre1("Goldoraaak",500,Gourdin1,0,0);
-    //Monstre1.SePositioner(0,0);
-    Monstre1.Afficher();
+
+    //Creation d'un heros et de son epee
     epee Epee1("MaGroseEpee",150,1000);
-    heros Paul1("Paul",100,Epee1,0,0);
-    Paul1.Afficher();
-    Paul1.Attaquer(Etre1);
+    heros PaulHeros("Paul",100,Epee1,0,0);
+
+
+
+
+    //Creation d'un gourdin et de son monstre
+    gourdin Gourdin1("MonGrosGourdin",50,120);
+    Monstre Monstre1("Goldoraaak",500,Gourdin1,0,0);
+
+    //Le héros utilise son épée contre un monstre!
+    PaulHeros.Afficher();
+    PaulHeros.Attaquer(Monstre1,Epee1._degats);
 
 
     /*Paul.Attaquer(Monstre2);

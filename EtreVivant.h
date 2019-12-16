@@ -5,6 +5,7 @@
 #ifndef JEUDEROLE_ETREVIVANT_H
 #define JEUDEROLE_ETREVIVANT_H
 #include <xstring>
+#include "arme.h"
 
 using namespace std;
 class EtreVivant{
@@ -22,7 +23,7 @@ public:
 
     virtual void Afficher();
     void SePositioner(int PositionX, int PositionY);
-    void Attaquer(EtreVivant &cible);
-    void RecevoirDegats(int nbdegats);
+    void RecevoirDegats(string nom, int nbdegats);
+    virtual void Attaquer(EtreVivant &cible, int ndDegats);
 };
 #endif //JEUDEROLE_ETREVIVANT_H
