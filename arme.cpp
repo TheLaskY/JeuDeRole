@@ -14,7 +14,7 @@ Arme::Arme(string nom, int degats): _degats(degats),_nom(nom) {
 }
 
 void Arme::Afficher() {
-    cout<<""<<_nom<<endl;
+    cout<<"Nom de l'arme"<<_nom<<endl;
     cout<<"Degats de  l'arme : "<<_degats<<endl;
 
 }
@@ -24,7 +24,7 @@ void Arme::Attaquer() {
     cout<<"Degats de l'arme : "<<_degats<<endl;
 }
 
-int Arme::getDegats()
+int Arme::get_degats()
 {
     return _degats;
 }

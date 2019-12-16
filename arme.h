@@ -17,7 +17,7 @@ public:
     Arme(string nom, int degats);
     void Afficher();
     virtual void Attaquer();
-    int getDegats();
+    int get_degats();
 
 };
 #endif //JEUDEROLE_ARME_H

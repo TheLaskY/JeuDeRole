@@ -18,8 +18,8 @@ int main() {
     EtreVivant Etre1 (0,0,"Goldorak",500);
 
     //Creation d'un heros et de son epee
-    epee Epee1("MaGroseEpee",150,1000);
-    heros PaulHeros("Paul",100,Epee1,0,0);
+    epee Epee1("MaGroseEpee",170,1000);
+    heros PaulHeros("Paul",150,Epee1,0,0);
 
 
 
@@ -30,14 +30,21 @@ int main() {
 
     //Le héros utilise son épée contre un monstre!
     PaulHeros.Afficher();
-    PaulHeros.Attaquer(Monstre1,Epee1._degats);
+    PaulHeros.Attaquer(Monstre1);
 
+    //Le monstre utilise son gourdin!
+    Monstre1.Attaquer(PaulHeros);
+    PaulHeros.Afficher();
 
-    /*Paul.Attaquer(Monstre2);
-    Monstre2.Attaquer(Monstre);
+    //Le héros se positionne en x = 10 et y = 20
+    PaulHeros.SePositioner(10,20);
+    PaulHeros.Afficher();
 
+    //Le monstre se positionne en x = 12 et y = 22
+    Monstre1.SePositioner(12,22);
+    Monstre1.Afficher();
 
-
-    epee Epee1("Excaliburne",20,200);
-    Epee1.Afficher();*/
+    //Le heros attaque en 1ier puis le monstre replique
+    PaulHeros.Attaquer(Monstre1);
+    Monstre1.Attaquer(PaulHeros);
 }

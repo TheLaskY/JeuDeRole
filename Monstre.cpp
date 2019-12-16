@@ -19,6 +19,7 @@ void Monstre::Afficher() {
 }
 
 void Monstre::Attaquer(EtreVivant &cible) {
-    EtreVivant::Attaquer(cible);
+    int degats = _MonArme->get_degats();
+    EtreVivant::Attaquer(cible,degats);
 }
 

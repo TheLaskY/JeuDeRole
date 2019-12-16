@@ -16,7 +16,6 @@ public:
     heros();
     heros(string nom, int pv, Arme &MonArme,int PositionX,int PositionY);
     void Afficher();
-
     void Attaquer(Monstre &cible);
 };
 #endif //JEUDEROLE_HEROS_H

@@ -15,6 +15,6 @@ public:
     epee();
     epee(string nom,int degats,double longeur);
     void Afficher();
-    void Attaquer();
+    void Attaquer() override;
 };
 #endif //JEUDEROLE_EPEE_H

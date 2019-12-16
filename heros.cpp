@@ -5,6 +5,7 @@
 #include "heros.h"
 #include "EtreVivant.h"
 #include "Monstre.h"
+#include "arme.h"
 
 heros::heros() {
 
@@ -20,5 +21,6 @@ void heros::Afficher() {
 }
 
 void heros::Attaquer(Monstre &cible) {
-    EtreVivant::Attaquer(cible);
+    int degats = _MonArme->get_degats();
+    EtreVivant::Attaquer(cible,degats);
 }

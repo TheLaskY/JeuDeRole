@@ -23,7 +23,8 @@ public:
 
     virtual void Afficher();
     void SePositioner(int PositionX, int PositionY);
-    void RecevoirDegats(string nom, int nbdegats);
     virtual void Attaquer(EtreVivant &cible, int ndDegats);
+
+    void RecevoirDegats(string nom, int pv, int nbdegats);
 };
 #endif //JEUDEROLE_ETREVIVANT_H

@@ -26,28 +26,21 @@ EtreVivant::EtreVivant(int PositionX, int PositionY, string nom, int pv): _Posit
 }
 
 void EtreVivant::SePositioner(int PositionX,int PositionY) {
-    cout<<"Position X avant: "<<PositionX<<endl;
-    cout<<"Entrer une nouvelle position"<<endl;
-    cin>>PositionX;
-    cout<<"Position Y avant: "<<PositionY<<endl;
-    cout<<"Entrer une nouvelle position"<<endl;
-    cin>>PositionY;
-
-    cout<<"Position X apres: "<<PositionX<<endl;
-    cout<<"Position Y apres: "<<PositionY<<endl;
-
+    _PositionX = PositionX;
+    _PositionY = PositionY;
 }
 
 void EtreVivant::Attaquer(EtreVivant &cible, int nbDegats) {
     cout<<"--------------------------------------"<<endl;
     cout<<"La cible attaquee est: "<<cible._nom<<endl;
-    RecevoirDegats(cible._nom,nbDegats);
+    RecevoirDegats(cible._nom,cible._pv,nbDegats);
 
 }
-void EtreVivant::RecevoirDegats(string nom,int nbdegats) {
-    /*_pv-= nbDegats;
-    if (_pv<0){
-        _pv=0;
-    }*/
+void EtreVivant::RecevoirDegats(string nom,int pv,int nbdegats) {
+    pv-= nbdegats;
+    if (pv<0){
+        pv=0;
+    }
     cout<<nom<<" recoi "<<nbdegats<<" degats! "<<endl;
+    cout<<"Il reste "<<pv<<" a "<<nom<<"!"<<endl;
 }
